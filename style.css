@@ -68,7 +68,7 @@ input, button {
 }
 .about_us{
     color:rgb(51, 92, 150);
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     padding-right: 100px;
     border-bottom: 1px solid gray;
 }
@@ -82,6 +82,8 @@ input, button {
     font-size: 30px;
     padding-left: 600px;
     line-height: 1;
+    padding-top: 10px;
+    padding-bottom: 18px;
 }
 .symbol{
     width: 100px;
@@ -95,8 +97,22 @@ input, button {
 }
 .line{
     border-bottom: 1px solid rgb(51, 92, 150);
+    padding-left: 15px;
 }
 .personal_details{
     color: rgb(51, 92, 150);
-
+}
+.about{
+    width: 50%;
+    height: 165px;
+}
+.our_services{
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color:rgb(51, 92, 150);
+    color: white;
+    margin-right: 50px;
+    border-top-left-radius: 50px;
+    text-align: right;
+    padding: 15px 25px 15px 0px;
 }
