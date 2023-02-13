@@ -74,3 +74,16 @@ input, button {
     color: rgb(51, 92, 150);
     text-align: right;
 }
+.symbol{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.iamge_data{
+    text-transform: uppercase;
+    color: rgb(51, 92, 150);
+}
+.line{
+    border-bottom: 1px solid rgb(51, 92, 150) ;
+}
