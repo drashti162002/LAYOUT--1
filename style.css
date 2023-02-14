@@ -34,6 +34,7 @@ input, button {
     border-bottom-right-radius: 50px;
     position: relative;
     object-fit: cover;
+    display: block;
 }
 .logo{
     width: 150px;
@@ -83,10 +84,10 @@ input, button {
 }
 .about_us_heading{
     color: rgb(51, 92, 150);
-    font-size: 30px;
+    font-size: 25px;
 }
 .us{
-    font-size: 45px;
+    font-size: 40px;
 }
 .about_us{
     color:rgb(51, 92, 150);
@@ -97,7 +98,7 @@ input, button {
 .about_us_secondheading{
     color: rgb(51, 92, 150);
     text-align: right;
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 550px;
     line-height: 1;
     padding-top: 10px;
@@ -132,6 +133,7 @@ input, button {
     padding-left: 110px;
     color:rgb(51, 92, 150);
     font-size: 20px;
+    padding-top: 10px;
 }
 .link{
     padding-left: 20px;
@@ -149,7 +151,7 @@ input, button {
 /* about part css */
 .about{
     width: 70%;
-    height: 215px;
+    height: 210px;
     padding-left: 50px;
     box-shadow: 20px 10px 0px -10px rgb(51, 92, 150);
     border-bottom-right-radius: 20px;
@@ -168,7 +170,6 @@ input, button {
     color: white;
     background-color:rgb(97, 185, 185);
     text-align: right;
-    /* padding: 0px 15px 80px 0px; */
     padding-left: 100px;
     padding-right: 35px;
     margin-right: 50px;
