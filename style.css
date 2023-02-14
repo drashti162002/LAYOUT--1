@@ -25,6 +25,7 @@ input, button {
     box-shadow: none;
     outline: none;
 }
+/* header css start */
 .image-1{
     width: 100%;
     overflow: hidden;
@@ -33,6 +34,18 @@ input, button {
     border-bottom-right-radius: 50px;
     position: relative;
     object-fit: cover;
+}
+.logo{
+    width: 150px;
+    top: 50px;
+    position: absolute;
+    left: 700px;
+}
+.item_name{
+    color:rgb(39, 111, 211);
+    position: absolute;
+    top:110px;
+    left:820px;
 }
 .heading{
     position: absolute;
@@ -59,6 +72,15 @@ input, button {
     margin: 0px 300px;
     font-size: 30px;
 }
+/* section css start */
+.full_data{
+    padding-top: 100px;
+    padding-left: 150px;
+ }
+.circle{
+    font-size: 50px;
+    color: gray;
+}
 .about_us_heading{
     color: rgb(51, 92, 150);
     font-size: 30px;
@@ -71,10 +93,6 @@ input, button {
     padding-bottom: 20px;
     padding-right: 100px;
     border-bottom: 1px solid gray;
-}
-.full_data{
-   padding-top: 120px;
-   padding-left: 150px;
 }
 .about_us_secondheading{
     color: rgb(51, 92, 150);
@@ -102,12 +120,39 @@ input, button {
     color: rgb(51, 92, 150);
     padding-top: 30px;
 }
+.icon{
+    background-color: rgb(51, 92, 150);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0px 5px;
+    margin-left: 15px;
+}
+.details{
+    padding-left: 110px;
+    color:rgb(51, 92, 150);
+    font-size: 20px;
+}
+.link{
+    padding-left: 20px;
+    padding-right: 400px;
+    color:rgb(51, 92, 150) ;
+}
+.icon{
+    background-color: rgb(51, 92, 150);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0px 5px;
+    margin-left: 15px;
+}
+/* about part css */
 .about{
     width: 70%;
-    height: 165px;
+    height: 215px;
     padding-left: 50px;
-    border-right: 8px solid rgb(51, 92, 150);
-    border-bottom-right-radius: 30px;
+    box-shadow: 20px 10px 0px -10px rgb(51, 92, 150);
+    border-bottom-right-radius: 20px;
 }
 .our_services{
     text-transform: uppercase;
@@ -140,8 +185,16 @@ input, button {
 .our_data{
     padding-left: 30px;
     padding-top: 120px;
+    position: relative;
 }
-.circle{
-    font-size: 50px;
-    color: gray;
+.qr_code{
+    position: absolute;
+    bottom: 0px;
+    width: 100px;
+    height: 100px;
+    border:10px solid rgb(51, 92, 150);
+    border-radius: 10px 0px;
+}
+.all{
+    margin-top: -25px;
 }
